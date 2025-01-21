@@ -14,22 +14,6 @@
 
 Este índice está diseñado para que navegues fácilmente por el contenido del repositorio y encuentres justo lo que necesitas. 💡
 
-
-Aquí tienes una bienvenida actualizada al README que incluye el índice que comparte:
-
-Bienvenido al Repositorio de Configuración de Nginx 🚀
-¡Gracias por visitar este repositorio! 🎉 Aquí encontrarás recursos y ejemplos detallados para trabajar con Nginx , un servidor web y proxy inverso ampliamente utilizado por su velocidad, flexibilidad y eficiencia.
-
-🗂️ Contenido
-🖥️ Introducción 🖥️
-💽 Comparativa con Apache 💽
-🕹️ Esquema de rojo 🕹️
-🏁Instalación🏁
-🙌 Casos prácticos 🙌
-📓 Referencias 📓
-
-Este índice está diseñado para que navegues fácilmente por el contenido del repositorio y encuentres justo lo que necesitas. 💡
-
 Siéntete libre de explorar, aprender y contribuir. Si tienes ideas, sugerencias o mejoras, abre un problema o envía una solicitud de extracción . ¡Tu participación es bienvenida! 🚀
 
 ¿Hay algo más que quieras ajustar o agregar? 😊
