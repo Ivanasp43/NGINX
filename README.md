@@ -7,12 +7,12 @@
   
 ### 🗂️ CONTENIDO
 
-- [🖥️ Introducción 🖥️](#-Introduccion-)
-- [💽 Comparativa con Apache 💽](#-ComparativaApache-)
-- [🕹️ Esquema de red 🕹️](#%EF%B8%8F-EsquemaRed-%EF%B8%8F)
-- [🏁 Instalación 🏁](#-Instalacion-)
-- [🙌 Casos prácticos 🙌](#-CasosPracticos-)
-- [📓 Referencias 📓](#-Referencias-)
+- [🖥️ Introducción 🖥️](Introduccion)
+- [💽 Comparativa con Apache 💽](ComparativaApache)
+- [🕹️ Esquema de red 🕹️](EsquemaRed)
+- [🏁 Instalación 🏁](Instalacion)
+- [🙌 Casos prácticos 🙌](CasosPracticos)
+- [📓 Referencias 📓](Referencias)
 
 Este índice está diseñado para que navegues fácilmente por el contenido del repositorio y encuentres justo lo que necesitas. 💡
 
