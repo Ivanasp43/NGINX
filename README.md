@@ -1,27 +1,36 @@
-# MONITORIZACIÓN
-## Bienvenido al repositorio de documentación técnica sobre monitorización por línea de comandos.
+# Bienvenido al Repositorio de Configuración de Nginx 🚀
+## ¡Gracias por visitar este repositorio! 🎉 Aquí encontrarás recursos y ejemplos detallados para trabajar con Nginx, un servidor web y proxy inverso ampliamente utilizado por su velocidad, flexibilidad y eficiencia.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/a48514cc-cc64-456d-8eab-4bbb80508054" alt="monitorización" />
-</p># Table of Contents
+  <img src="https://github.com/user-attachments/assets/a5a90721-ead5-4d8d-ada1-8a5f59729e22" alt="monitorización" />
+</p># 🗂️ CONTENIDO
 
-- [⚙ Features ⚙](#-features-)
-  * [🙋 What is the context menu? 🙋](#-what-is-the-context-menu-)
-  * [🖥️ What Operating Systems are supported? 🖥️](#%EF%B8%8F-what-operating-systems-are-supported-%EF%B8%8F)
-  * [🐍 What Python versions are supported? 🐍](#-what-python-versions-are-supported-)
-- [💽 Installation 💽](#-installation-)
-- [🕹️ Quickstart 🕹️](#%EF%B8%8F-quickstart-%EF%B8%8F)
-- [🤖 Advanced Usage 🤖](#-advanced-usage-)
-  * [The `ContextMenu` Class](#the-contextmenu-class)
-  * [The `ContextCommand` Class](#the-contextcommand-class)
-  * [The `FastCommand` Class](#the-fastcommand-class)
-  * [The `removeMenu` method](#the-removemenu-method)
-  * [The `params` Command Parameter](#the-params-command-parameter)
-  * [`command_vars` Command Parameter](#command_vars-command-parameter)
-  * [Opening on Files](#opening-on-files)
-  * [Activation Types](#activation-types)
-- [🏁 Goals 🏁](#-goals-)
-- [🙌 Contribution 🙌](#-contribution-)
-- [📓 Important notes 📓](#-important-notes-)
-- [💻 Freshen - A context_menu project! 💻](#-freshen---a-context_menu-project-)
-- [💙 Support 💙](#-support-)
+- [🖥️ Introducción 🖥️](#-Introduccion-)
+- [💽 Comparativa con Apache 💽](#-ComparativaApache-)
+- [🕹️ Esquema de red 🕹️](#%EF%B8%8F-EsquemaRed-%EF%B8%8F)
+- [🏁 Instalación 🏁](#-Instalacion-)
+- [🙌 Casos prácticos 🙌](#-CasosPracticos-)
+- [📓 Referencias 📓](#-Referencias-)
+
+Este índice está diseñado para que navegues fácilmente por el contenido del repositorio y encuentres justo lo que necesitas. 💡
+
+
+Aquí tienes una bienvenida actualizada al README que incluye el índice que comparte:
+
+Bienvenido al Repositorio de Configuración de Nginx 🚀
+¡Gracias por visitar este repositorio! 🎉 Aquí encontrarás recursos y ejemplos detallados para trabajar con Nginx , un servidor web y proxy inverso ampliamente utilizado por su velocidad, flexibilidad y eficiencia.
+
+🗂️ Contenido
+🖥️ Introducción 🖥️
+💽 Comparativa con Apache 💽
+🕹️ Esquema de rojo 🕹️
+🏁Instalación🏁
+🙌 Casos prácticos 🙌
+📓 Referencias 📓
+
+Este índice está diseñado para que navegues fácilmente por el contenido del repositorio y encuentres justo lo que necesitas. 💡
+
+Siéntete libre de explorar, aprender y contribuir. Si tienes ideas, sugerencias o mejoras, abre un problema o envía una solicitud de extracción . ¡Tu participación es bienvenida! 🚀
+
+¿Hay algo más que quieras ajustar o agregar? 😊
+
