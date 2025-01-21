@@ -3,7 +3,9 @@
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/a5a90721-ead5-4d8d-ada1-8a5f59729e22" alt="monitorización" />
-</p># 🗂️ CONTENIDO
+  </p>
+  
+# 🗂️ CONTENIDO
 
 - [🖥️ Introducción 🖥️](#-Introduccion-)
 - [💽 Comparativa con Apache 💽](#-ComparativaApache-)
