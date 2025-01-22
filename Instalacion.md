@@ -1,4 +1,4 @@
-# 🏁 Instalación de Nginx 🏁
+# 🕹️ Instalación de Nginx 🕹️
 
 La instalación de Nginx varía dependiendo del sistema operativo y de las necesidades específicas del entorno en el que se desplegará. A continuación, se detallan los pasos principales para instalar Nginx en los sistemas operativos más comunes, junto con algunos consejos prácticos para configurarlo correctamente.
 
