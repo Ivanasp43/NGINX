@@ -9,14 +9,10 @@ Nginx (pronunciado "Engine-X") es un servidor web y proxy inverso de alto rendim
 
 Nginx se ha convertido en una elección predilecta por las siguientes razones:
 
-- Escalabilidad y rendimiento: Ideal para manejar grandes cantidades de tráfico con un uso eficiente de recursos.
-  
-- Flexibilidad: Funciona como servidor web, proxy inverso, balanceador de carga y más.
-  
-- Soporte para tecnologías modernas: Compatible con HTTP/2, WebSocket y otros protocolos avanzados.
-  
-- Configuraciones sencillas y modulares: Ofrece un alto nivel de personalización con un archivo de - configuración fácil de entender.
-  
+- Escalabilidad y rendimiento: Ideal para manejar grandes cantidades de tráfico con un uso eficiente de recursos. 
+- Flexibilidad: Funciona como servidor web, proxy inverso, balanceador de carga y más.  
+- Soporte para tecnologías modernas: Compatible con HTTP/2, WebSocket y otros protocolos avanzados.  
+- Configuraciones sencillas y modulares: Ofrece un alto nivel de personalización con un archivo de - configuración fácil de entender.  
 - Seguridad: Incluye soporte integrado para HTTPS, lo que facilita la implementación de conexiones seguras.
 
 Nginx no solo es popular entre pequeñas empresas o proyectos personales; gigantes tecnológicos como Netflix, Airbnb, Dropbox y WordPress confían en Nginx para manejar el tráfico masivo de sus plataformas. Su robustez, flexibilidad y rendimiento han establecido a Nginx como un estándar en la arquitectura moderna de servidores web.
