@@ -41,10 +41,8 @@ Apache también ha incorporado soporte para muchas de estas tecnologías, pero s
 
 Nginx ha sido diseñado con un enfoque en la modernidad y el alto rendimiento. Proporciona soporte nativo para:
 
-- HTTP/2 y HTTP/3: Protocolos que mejoran la velocidad y eficiencia en la transmisión de datos.
-  
-- WebSocket: Ideal para aplicaciones en tiempo real como chats y notificaciones en vivo.
-  
+- HTTP/2 y HTTP/3: Protocolos que mejoran la velocidad y eficiencia en la transmisión de datos.  
+- WebSocket: Ideal para aplicaciones en tiempo real como chats y notificaciones en vivo.  
 - Balanceo de carga: Nginx actúa como un balanceador de carga eficiente para distribuir el tráfico entre múltiples servidores.
   
 Apache también ha incorporado soporte para muchas de estas tecnologías, pero su implementación suele ser menos eficiente o más compleja en comparación con Nginx.
@@ -53,8 +51,7 @@ Apache también ha incorporado soporte para muchas de estas tecnologías, pero s
 
 La elección entre Apache y Nginx depende en gran medida de las necesidades específicas del proyecto:
 
- - Si buscas una solución que permita configuraciones personalizadas a nivel de directorio y una integración más sencilla con tecnologías heredadas, Apache es una excelente opción.
-   
+ - Si buscas una solución que permita configuraciones personalizadas a nivel de directorio y una integración más sencilla con tecnologías heredadas, Apache es una excelente opción.  
 - Si tu objetivo principal es maximizar el rendimiento, manejar grandes volúmenes de tráfico o trabajar con tecnologías modernas como microservicios y contenedores, Nginx es la alternativa ideal.
   
 En muchos casos, la combinación de ambos servidores puede ofrecer lo mejor de ambos mundos. Por ejemplo, puedes usar Nginx como proxy inverso para manejar el tráfico entrante y delegar ciertas tareas a un servidor Apache en segundo plano. Esta estrategia aprovecha las fortalezas de ambos sistemas y optimiza la arquitectura general del servidor.
