@@ -6,23 +6,26 @@ La instalación de Nginx varía dependiendo del sistema operativo y de las neces
 
 1- Actualizar sistema. Antes de instalar cualquier paquete, es recomendable actualizar los repositorios con:
 
-  - sudo apt update
+  - ***sudo apt update***
     
-  - sudo apt upgrade
+  - ***sudo apt upgrade***
     
 2- Instalamos Nginx utilizando el gestor de paquetes APT:
 
-  - Sudo apte install nginx
+  - ***Sudo apte install nginx***
     
 3- Una vez instalado, activamos y verificamos que Nginx está funcionando:
 
-  - sudo systemctl start nginx
+  - ***sudo systemctl start nginx***
     
-  - sudo systemctl enable nginx
+  - ***sudo systemctl enable nginx***
     
-  - sudo systemctl status nginx
+  - ***sudo systemctl status nginx***
     
 4- Como algo opcional podemos configurarmos el cortafuegos con sudo ufw allow 'Nginx Full'.
+
+5- Configuración básica de Nginx. La configuración principal de Nginx se encuentra en el archivo  ***/etc/nginx/nginx.conf***. Sin embargo, la configuración específica de los sitios web se maneja en archivos separados ubicados en ***/etc/nginx/sites-available/*** y ***/etc/nginx/sites-enabled/***.
+
 
 ## Instalación en Sistemas Basados en Windows
 
@@ -32,7 +35,7 @@ Aunque Nginx no es comúnmente utilizado en sistemas Windows, es posible instala
 
 2- Extraer el contenido del archivo Zip en la ubicación seleccionada.
 
-3- Ejecutamos Nginx desde el CMD con el comando ###*start nginx*
+3- Ejecutamos Nginx desde el CMD con el comando ***start nginx***
 
 ## Verificación de la instalación
 
@@ -42,7 +45,7 @@ Independientemente del método de instalación, puedes comprobar que Nginx está
   
 - La dirección IP o el dominio asociado al servidor en un entorno remoto.
   
-Veremos  una página predeterminada de bienvenida de Nginx. Si no aparece, tendremos que revisar los registros de errores del servidor ubicados en /var/log/nginx/error.log o el equivalente en tu sistema operativo.
+Veremos  una página predeterminada de bienvenida de Nginx. Si no aparece, tendremos que revisar los registros de errores del servidor ubicados en ***/var/log/nginx/error.log*** o el equivalente en tu sistema operativo.
 
 ## Resumen
 
