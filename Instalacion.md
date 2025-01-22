@@ -6,8 +6,7 @@ La instalación de Nginx varía dependiendo del sistema operativo y de las neces
 
 1- Actualizar sistema. Antes de instalar cualquier paquete, es recomendable actualizar los repositorios con:
 
-  - ***sudo apt update***
-    
+  - ***sudo apt update*** 
   - ***sudo apt upgrade***
     
 2- Instalamos Nginx utilizando el gestor de paquetes APT:
@@ -16,10 +15,8 @@ La instalación de Nginx varía dependiendo del sistema operativo y de las neces
     
 3- Una vez instalado, activamos y verificamos que Nginx está funcionando:
 
-  - ***sudo systemctl start nginx***
-    
-  - ***sudo systemctl enable nginx***
-    
+  - ***sudo systemctl start nginx***   
+  - ***sudo systemctl enable nginx***   
   - ***sudo systemctl status nginx***
     
 4- Como algo opcional podemos configurarmos el cortafuegos con sudo ufw allow 'Nginx Full'.
@@ -32,17 +29,14 @@ La instalación de Nginx varía dependiendo del sistema operativo y de las neces
 Aunque Nginx no es comúnmente utilizado en sistemas Windows, es posible instalarlo y ejecutarlo.
 
 1- Descargar el paquete con la versión compatible con Windows desde el sitio oficial de Nginx.
-
 2- Extraer el contenido del archivo Zip en la ubicación seleccionada.
-
 3- Ejecutamos Nginx desde el CMD con el comando ***start nginx***
 
 ## Verificación de la instalación
 
 Independientemente del método de instalación, puedes comprobar que Nginx está funcionando correctamente abriendo un navegador y accediendo a:
 
-- http://localhost en un entorno local.
-  
+- http://localhost en un entorno local.  
 - La dirección IP o el dominio asociado al servidor en un entorno remoto.
   
 Veremos  una página predeterminada de bienvenida de Nginx. Si no aparece, tendremos que revisar los registros de errores del servidor ubicados en ***/var/log/nginx/error.log*** o el equivalente en tu sistema operativo.
