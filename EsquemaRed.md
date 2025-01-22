@@ -4,6 +4,10 @@ Un servidor web con dos tarjetas de red, una interna y otra externa, permite con
 En este apartado vamos a configurar el esquema de red para el servidor Nginx en una máquina virtual basada en Debian. Esta elección se debe a varias razones técnicas y prácticas que aseguran un entorno óptimo para el despliegue de este servidor web.
 A continuación, se detalla cómo se estructura y se utiliza este esquema de red en un servidor Nginx.
 
+<p align="center">
+  <img src=IMAGENES/esquemared.png>
+  </p>
+
 ## Descripción del esquema
 
 El servidor estará configurado con [dos interfaces de red](IMAGENES/red_interna_y_externa.png):
