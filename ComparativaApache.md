@@ -1,9 +1,11 @@
 # ¿Apache o Nginx?
 
-Mientras que Apache sigue siendo uno de los servidores web más utilizados por su extensibilidad y larga trayectoria, Nginx ha demostrado ser una alternativa superior en muchos aspectos, especialmente en términos de rendimiento. En sitios web con alta demanda, como aplicaciones de comercio electrónico, plataformas de streaming o redes sociales, Nginx sobresale debido a su capacidad para manejar múltiples conexiones simultáneas de forma eficiente.
+Hasta bien poco, Apache era el rey indiscutible en el mundo de los servidores web, pero año tras año, la popularidad de este servidor web ha ido en aumento y empresas punteras de Internet como Facebook o WordPress lo utilizan en sus portales. 
+Hoy en día podemos asegurar, sin ninguna duda,  que los sitios web con alta demanda, como aplicaciones de comercio electrónico, plataformas de streaming o redes sociales, Nginx sobresale debido a su capacidad para manejar múltiples conexiones simultáneas de forma eficiente.
 
-Por otro lado, aunque IIS sigue siendo una opción viable en entornos empresariales que operan exclusivamente con Windows, su adopción está más limitada en comparación con herramientas de código abierto como Nginx y Apache, que funcionan de manera óptima en una mayor variedad de sistemas operativos.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/a5a90721-ead5-4d8d-ada1-8a5f59729e22" alt="monitorización" />
+  <img src="https://github.com/user-attachments/assets/f99e7a0a-cf29-4343-ab4d-8b442f1a7a49" alt="monitorización" />
   </p>
+
+  
