@@ -1,4 +1,4 @@
-# ¿Apache o Nginx?
+# 🏁 ¿Apache o Nginx? 🏁
 
 Hasta hace bien poco, Apache era el rey indiscutible en el mundo de los servidores web, pero año tras año, la popularidad de este servidor web ha ido en aumento y empresas punteras de Internet como Facebook o WordPress lo utilizan en sus portales. 
 
