@@ -11,13 +11,13 @@ La instalación de Nginx varía dependiendo del sistema operativo y de las neces
     
 2- Instalamos Nginx utilizando el gestor de paquetes APT:
 
-  - [***Sudo apte install nginx***]()
+  - ***Sudo apte install nginx***
     
 3- Una vez instalado, activamos y verificamos que Nginx está funcionando:
 
   - ***sudo systemctl start nginx***
   - ***sudo systemctl enable nginx***   
-  - [***sudo systemctl status nginx***]()
+  - [***sudo systemctl status nginx***](imagenes/estatusgnix.png)
 
 ## Instalación en Sistemas Basados en Windows
 
