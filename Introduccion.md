@@ -1,7 +1,14 @@
 # 🕹️ Introducción 🕹️
 
 Uno de los recursos más importantes y necesarios a lo que respeta el desarrollo.web, es el uso de un servidor web, el cual es un concepto que se extiende tanto alcampo del hardware como al campo del software. Un servidor web es prácticamenteuna computadora que contiene el software del servidor web que se desea utilizar, ygracias a ese software podemos alojar datos y archivos, como los componentes deun sitio web; Además, este software también se encarga de controlar el acceso delos usuarios a los archivos alojados.Todo hasta aquí es entendible, pero, ¿en qué consiste un servidor web? La parteLo más importante que constituye un servidor web, es un servidor HTTP. Esteservidor HTTP es un programa que entiende las direcciones de web o URL y unsoporte para el protocolo HTTP, que, como ya se conoce, es el protocolo por el cualse rige toda la Web.
-Hasta hace poco la elección de un servidor web era una tarea sencilla, ya que si disponíamos de una máquina con sistema operativo Windows te decantabas por la herramienta Internet Information Server (IIS), mientras que si disponías de un servidor Linux, la opción era Apache. Pero esto ya no es así, porque en el mercado hay disponibles nuevas alternativas que han llegado para plantar cara a este binomio. Una de ellas es el servidor web Nginx.
+Hasta hace poco la elección de un servidor web era una tarea sencilla, ya que si disponíamos de una máquina con sistema operativo Windows te decantabas por la herramienta Internet Information Server (IIS), mientras que si disponías de un servidor Linux, la opción era Apache. Pero esto ya no es así, porque en el mercado hay disponibles nuevas alternativas que han llegado para plantar cara a este binomio. Una de ellas es el servidor web Nginx.               
+
+
+<br><p align="center">
+  <img src="imagenes/importancianginx.png" alt="monitorización" />
+</p><br>  
+
+
 
 ## ¿Qué es Nginx y porqué es importante? 
 
