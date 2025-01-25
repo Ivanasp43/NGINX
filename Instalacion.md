@@ -15,9 +15,9 @@ La instalación de Nginx varía dependiendo del sistema operativo y de las neces
     
 3- Una vez instalado, activamos y verificamos que Nginx está funcionando:
 
-  - [***sudo systemctl start nginx***]()
+  - ***sudo systemctl start nginx***
   - ***sudo systemctl enable nginx***   
-  - ***sudo systemctl status nginx***
+  - [***sudo systemctl status nginx***]()
 
 ## Instalación en Sistemas Basados en Windows
 
