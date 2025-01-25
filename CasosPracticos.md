@@ -32,55 +32,44 @@ Para personalizar la página que lanza Nginx por defecto, lo que haremos será m
 
 ## E- Virtual Hosting
 
-Nuestro servidor ofrecerá 2 sitios web. Para dicha configuración, seguiremos los siguientes pasos:
-
-    [- Creación de los directorios]() de cada sitio web con el comando ***mkdir*** y su ruta correspondiente.
-    
-    - Asignamos los [permisos]() necesarios con los comandos ***chown*** y ***chmod***.
-    
-    - Creamos las páginas index.html para cada sitio con el editor de texto en la ruta [***/var/www/web(x)/index.html***](), añadiendo el contenido que queremos que se vea en la red.
-    
-     [- Creamos los archivos sites-available]() con el editor de texto para cada sitio, proporcionándoles el nombre del dominio, el directorio raíz, el puerto, los protocolos y cualquier configuración específica. Se trata del archivo en donde se almacenan las configuraciones individuales de cada sitio web. Cada vez que modificamos este archivo tendremos que aplicar los cambios con ***sudo systemctl reload nginx***
-     
-     - Creamos enlaces simbólicos en el [directorio sites-enabled](), archivo donde se seleccionan las configuraciones que estarán activas.
-     
-     - Configuramos el [archivo hosts]() para pruebas locales] con ***sudo nano /etc/hots***
-     
-     [- Resultado final](). Hacemos las comprobaciones en el navegador accediendo con ***http://www.web(x).org***.
+Nuestro servidor ofrecerá 2 sitios web. Para dicha configuración, seguiremos los siguientes pasos:<br>   
+    1- [Creación de los directorios]() de cada sitio web con el comando ***mkdir*** y su ruta correspondiente.<br>   
+    2- Asignamos los [permisos]() necesarios con los comandos ***chown*** y ***chmod***.<br>  
+    3- Creamos las páginas index.html para cada sitio con el editor de texto en la ruta [***/var/www/web(x)/index.html***](), añadiendo el contenido que queremos que se vea en la red.<br>  
+     4- [Creación de los archivos sites-available]() con el editor de texto para cada sitio, proporcionándoles el nombre del dominio, el directorio raíz, el puerto, los protocolos y cualquier configuración específica. Se trata del archivo en donde se almacenan las configuraciones individuales de cada sitio web. Cada vez que modificamos este archivo tendremos que aplicar los cambios con ***sudo systemctl reload nginx***.<br>  
+     5- Creamos enlaces simbólicos en el [directorio sites-enabled](), archivo donde se seleccionan las configuraciones que estarán activas.<br>  
+     6- Configuramos el [archivo hosts]() para pruebas locales] con ***sudo nano /etc/hots***.<br>  
+     7- [Resultado final](). Hacemos las comprobaciones en el navegador accediendo con ***http://`www.web(x).org`***.
      
      
-  ## F- Autenticación, Autorización y control de acceso
+  ## F- Autenticación, Autorización y control de acceso  
   
-  www.web1.org puede acceder desde la red externa y la red interna, pero wwww.web2.org sólo puede acceder desde la red interna. Los pasos a seguir son:
+  `www.web1.org` puede acceder desde la red externa y la red interna, pero `wwww.web2.org` sólo puede acceder desde la red interna. Los pasos a seguir son:<br>  
+      1- Configuración del [archivo sites-available]() de cada uno.<br>  
+      2- Configuración del [archivo hosts]() Añadimos las ip correspondientes a la red interna y la red externa.<br>  
+      3- [Comprobación]() de ambas en la red interna. Utilizaremos el comando ***curl --interface enp0s8 hhttp//`www.web(x).org`***.  <br>  
+      4- [Comprobación]() de ambas en la red externa.  
+      
+      
+  ## G- Autenticación, Autorización y Control de acceso  
   
-      - Configuración del [archivo sites-available]() de cada uno.
-      
-      - Configuración del [archivo hosts]() Añadimos las ip correspondientes a la red interna y la red externa.
-      
-      [- Comprobación de ambas en la red interna](). Utilizaremos el comando ***curl --interface enp0s8 hhttp//www.web(x).org***
-      
-      [- Comprobación de ambas en la red externa]()
+  `www.web1.org` contiene un directorio privado al que sólo pueden acceder usuario válidos. Pasos:  <br>   
+      1- Creación directorio privado con un mensaje. Primero crearemos el direcorio para web1 con el comando mkdir y posteriormente le añadiremos con el editor de texto un fichero index.html con el mensaje correspondiente.***sudo mkdir /var/www/web1/privado*** y ***sudo nano /var/www/web1/privado/index.html***.  <br>   
+      2- Instalamos el paquete ***apache2-utils***  y procedemos a crear un archivo para guardar las credenciales de usuarios con ***sudo htpasswd -c /etc/nginx/.htpasswd usurio1***.  <br>     
+      3- Abrimos de nuevo el archivo [sites-available de web1](), y lo configuramos para la nueva restrincción.  <br>  
+      4- [Comprobación]()   
       
       
-  ## G- Autenticación, Autorización y Control de acceso
+  ## H- Autenticación, Autorización y Control de acceso  
   
-  www.web1.org contiene un directorio privado al que sólo pueden acceder usuario válidos. Pasos:
-      - Creación directorio privado con un mensaje. Primero crearemos el direcorio para web1 con el comando mkdir y posteriormente le añadiremos con el editor de texto un fichero index.html con el mensaje correspondiente.***sudo mkdir /var/www/web1/privado*** y ***sudo nano /var/www/web1/privado/index.html*** 
-      - Instalamos el paquete ***apache2-utils***  y procedemos a crear un archivo para guardar las credenciales de usuarios con ***sudo htpasswd -c /etc/nginx/.htpasswd usurio1***.
-      - Abrimos de nuevo el archivo [sites-available de web1](), y lo configuramos para la nueva restrincción.
-      [- Comprobación]() 
+  `www.web1.org` contiene un directorio llamado privado. Desde la red externa pide autorización y desde la interna no. Pasos:  <br>  
+      1- Configuramos el archivo [sites-available]() de web1.  <br>      
+      2- Vuelvo a crear una nueva credencial a un nuevo usuario con ***sudo htpasswd -c /etc/nginx/.htpasswd usurio***.  <br>  
+      3- Comprobaciones: [Desde la red externa]() [Desde la red interna]().  <br>  
       
-      
-  ## H- Autenticación, Autorización y Control de acceso
+  ## I- Seguridad  
   
-  www.web1.or contiene un directorio llamado privado. Desde la red externa pide autorización y desde la interna no. Pasos:
-      - Configuramos el archivo [sites-available]() de web1
-      - Vuelvo a crear una nueva credencial a un nuevo usuario con ***sudo htpasswd -c /etc/nginx/.htpasswd usurio***.
-      - Comprobaciones: [Desde la red externa]() [Desde la red interna]()
-      
-  ## I- Seguridad
-  
-  Configuración del sitio virtual www.web1 para que el sitio sea seguro. Como lo vamos a hacer desde una red privada en vez de pública, haremos los siguientes pasos:
-      - Generamos un [certificado autofirmado]() con el comando ***sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/ssl/private/selfsigned.key -out /etc/ssl/certs/selfsigned.crt***
-      - Modificamos el archivo [sites-available]() de web1.
-      [- Comprobación]()
+  Configuración del sitio virtual `www.web1` para que el sitio sea seguro. Como lo vamos a hacer desde una red privada en vez de pública, haremos los siguientes pasos:<br>  
+      1- Generamos un [certificado autofirmado]() con el comando ***sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/ssl/private/selfsigned.key -out /etc/ssl/certs/selfsigned.crt***.<br>  
+      2- Modificamos el archivo [sites-available]() de web1.  <br>  
+      3- [Comprobación]().  <br>  
