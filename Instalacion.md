@@ -11,7 +11,7 @@ La instalación de Nginx varía dependiendo del sistema operativo y de las neces
     
 2- Instalamos Nginx utilizando el gestor de paquetes APT:
 
-  - ***Sudo apte install nginx***
+  - ***Sudo apt install nginx***
     
 3- Una vez instalado, activamos y verificamos que Nginx está funcionando:
 
@@ -38,7 +38,7 @@ Veremos  una página predeterminada de bienvenida de Nginx. Si no aparece, tendr
 
 ## Resumen
 
-Hemos repasao el proceso de instalación de Nginx en los sistemas operativos Windows y Linux. Siguiendo los pasos descritos para tu plataforma específica, ahora deberías tener una instalación de Nginx en funcionamiento, lista para gestionar tus tareas de servidor web y proxy inverso.
+Hemos repasado el proceso de instalación de Nginx en los sistemas operativos Windows y Linux. Siguiendo los pasos descritos para tu plataforma específica, ahora deberías tener una instalación de Nginx en funcionamiento, lista para gestionar tus tareas de servidor web y proxy inverso.
 Te animo a que empieces a utilizar Nginx para tus aplicaciones web, ya que ofrece un rendimiento, una escalabilidad y una flexibilidad excelentes. A medida que sigas trabajando con Nginx, encontrarás una gran cantidad de recursos disponibles en línea para ayudarte a aprender más y a solucionar cualquier problema que puedas encontrar. La documentación oficial de Nginx es un buen punto de partida, así como diversos foros y blogs de la comunidad.
 
 Por último, si buscas una solución de alojamiento fiable para tus aplicaciones basadas en Nginx, te recomendamos Kinsta Application Hosting. Kinsta proporciona un entorno de alojamiento gestionado de alto rendimiento optimizado para Nginx, que garantiza que tus aplicaciones funcionen sin problemas y de forma segura.
