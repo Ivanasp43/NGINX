@@ -8,11 +8,11 @@ Esto no significa que Apache haya quedado obsoleto, ya que sigue siendo una opci
 
 A continuación, exploraremos las principales diferencias y puntos clave que hacen que Nginx y Apache se destaquen en el ecosistema de servidores web.
 
-## Diferencias clave entre Apache y Nginx
+## Diferencias clave entre Apache y Nginx     
 
-<p align="center">
+<br><p align="center">
   <img src="https://github.com/user-attachments/assets/f99e7a0a-cf29-4343-ab4d-8b442f1a7a49" alt="monitorización" />
-  </p>
+  </p><br>     
 
 ### 1. Modelo de procesamiento de solicitudes
 
