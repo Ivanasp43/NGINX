@@ -31,7 +31,7 @@ Aunque Nginx no es comúnmente utilizado en sistemas Windows, es posible instala
 
 Independientemente del método de instalación, puedes comprobar que Nginx está funcionando correctamente abriendo un navegador y accediendo a:
 
-- http://localhost en un entorno local.  
+- `http://localhost` en un entorno local.  
 - La dirección IP o el dominio asociado al servidor en un entorno remoto.
   
 Veremos  una página predeterminada de bienvenida de Nginx. Si no aparece, tendremos que revisar los registros de errores del servidor ubicados en ***/var/log/nginx/error.log*** o el equivalente en tu sistema operativo.
