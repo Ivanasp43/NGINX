@@ -13,7 +13,7 @@
 - [🕹️ Esquema de red 🕹️](EsquemaRed)
 - [🏁 Instalación 🏁](Instalacion)
 - [🙌 Casos prácticos 🙌](CasosPracticos)
-- [📓 Referencias 📓](Referencias)
+- [📓 Referencias 📓](Referencias)<br>      
 
 Este índice está diseñado para que navegues fácilmente por el contenido del repositorio y encuentres justo lo que necesitas. 💡
 
