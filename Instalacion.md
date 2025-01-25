@@ -11,18 +11,13 @@ La instalación de Nginx varía dependiendo del sistema operativo y de las neces
     
 2- Instalamos Nginx utilizando el gestor de paquetes APT:
 
-  - ***Sudo apte install nginx***
+  - [***Sudo apte install nginx***]()
     
 3- Una vez instalado, activamos y verificamos que Nginx está funcionando:
 
-  - ***sudo systemctl start nginx***   
+  - [***sudo systemctl start nginx***]()
   - ***sudo systemctl enable nginx***   
   - ***sudo systemctl status nginx***
-    
-4- Como algo opcional podemos configurarmos el cortafuegos con sudo ufw allow 'Nginx Full'.
-
-5- Configuración básica de Nginx. La configuración principal de Nginx se encuentra en el archivo  ***/etc/nginx/nginx.conf***. Sin embargo, la configuración específica de los sitios web se maneja en archivos separados ubicados en ***/etc/nginx/sites-available/*** y ***/etc/nginx/sites-enabled/***.
-
 
 ## Instalación en Sistemas Basados en Windows
 
